@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name:  hc-inventory-service
-          image: valere1991/hc-inventory-service:latest
+          image: valere1991/hc-inventory-service:9
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 5005

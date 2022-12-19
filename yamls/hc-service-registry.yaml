@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: hc-service-registry
-          image: valere1991/hc-service-registry:latest
+          image: valere1991/hc-service-registry:8
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8761

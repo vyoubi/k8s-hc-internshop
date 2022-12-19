@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: hc-hystrix-dashboard
-          image: valere1991/hc-hystrix-dashboard:latest
+          image: valere1991/hc-hystrix-dashboard:7
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 7000

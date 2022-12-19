@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name:  hc-payment-service
-          image: valere1991/hc-payment-service:latest
+          image: valere1991/hc-payment-service:6
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 5006

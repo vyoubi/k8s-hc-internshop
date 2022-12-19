@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name:  hc-notification-service
-          image: valere1991/hc-notification-service
+          image: valere1991/hc-notification-service:latest
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 5007

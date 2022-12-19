@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name:  hc-order-service
-          image: valere1991/hc-order-service
+          image: valere1991/hc-order-service:latest
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 5004

@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: hc-cloud-gateway
-          image: valere1991/hc-cloud-gateway
+          image: valere1991/hc-cloud-gateway:latest
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 5000

@@ -13,11 +13,10 @@ spec:
     metadata:
       labels:
         app:  hc-product-service
-        
     spec:
       containers:
         - name:  hc-product-service
-          image: valere1991/hc-product-service:latest
+          image: valere1991/hc-product-service
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 5003

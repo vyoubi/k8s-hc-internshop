@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name:  hc-product-service
-          image: valere1991/hc-product-service:7
+          image: valere1991/hc-product-service:8
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 5003
